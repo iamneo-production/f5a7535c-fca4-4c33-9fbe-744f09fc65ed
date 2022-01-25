@@ -67,21 +67,26 @@ function Placeorder(){
   <input type="text" class="form-control" id="orderDescription" placeholder="order description"></input>
 </div>
 
-<div class="input-group mb-3">
+<div class="input-group">
   <select class="form-select" id="inputGroupSelect02">
     <option selected>Choose...</option>
     <option value="1" type="checkbox">One</option>
     <option value="2">Two</option>
     <option value="3">Three</option>
   </select>
-  <label class="input-group-text" for="inputGroupSelect02">Options</label>
-</div>
-<div class=" position-absolute top-50 end-0 translate-middle-y" id="placeOrder">
-<button type="button" class="btn btn-primary ">Place order</button>
+  <label class="input-group-text" for="inputGroupSelect02 mb">Options</label>
 </div>
 
+<div class=" position-relative " id="placeOrder">
+<button type="button" class="btn btn-primary position-absolute  bottom-0 end-0  ">Place order</button>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 </div>
 
+
+</div>
 </div>
 </div>
 
