@@ -43,7 +43,7 @@ function Placeorder(){
 </div>
 
 <div id="orderPhoneNo" class="input-group mb-3">
-  <input type="number" class="form-control" id="orderPhoneNo" placeholder="Enter your phone number"></input>
+  <input type="mobilenumber" class="form-control" id="orderPhoneNo" placeholder="Enter your phone number"></input>
 </div>
 
 <div id="orderEmailId" class="input-group mb-3">
@@ -68,25 +68,25 @@ function Placeorder(){
 </div>
 
 <div class="input-group">
-  <select class="form-select" id="inputGroupSelect02">
-    <option selected>Choose...</option>
-    <option value="1" type="checkbox">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
+  <select class="form-select" id="orderCategory">
+    <option selected>Select the Theme Model</option>
+    <option class="form-check-input" value="1" type="checkbox">Photo Design</option>
+    <option value="2">Pattern</option>
+    <option value="3">Face Pattern</option>
+    <option value="4">Wrist Chain</option>
   </select>
-  <label class="input-group-text" for="inputGroupSelect02 mb">Options</label>
+  <label class="input-group-text" for="inputGroupSelect02">Options</label>
+</div>
+<div class=" position-relative" id="placeOrder">
+<button type="button" class="btn btn-primary position-absolute bottom-0 end-0 ">Place order</button>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
 </div>
 
-<div class=" position-relative " id="placeOrder">
-<button type="button" class="btn btn-primary position-absolute  bottom-0 end-0  ">Place order</button>
-<br></br>
-<br></br>
-<br></br>
-<br></br>
 </div>
 
-
-</div>
 </div>
 </div>
 

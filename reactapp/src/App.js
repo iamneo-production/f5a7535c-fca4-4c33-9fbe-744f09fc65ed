@@ -6,6 +6,10 @@ import Homepage from './components/Homepage/Homepage';
 import {BrowserRouter as Router,Route, Switch} from 'react-router-dom';
 import Placeorder from './components/Placeorder/Placeorder';
 import Myorder from './components/Myorder/Myorder';
+import Admingifts from './components/Admingifts/Admingifts';
+import Editgifts from './components/Admingifts/Editgifts';
+import Adminthemes from './components/Adminthemes/Adminthemes';
+import Editthemes from './components/Adminthemes/Editthemes';
 
 function App() {
   return (
@@ -18,6 +22,10 @@ function App() {
          <Route path="/Homepage"> <Homepage/> </Route>
          <Route path="/Placeorder"> <Placeorder/> </Route>
          <Route path="/Myorder"> <Myorder/> </Route>
+         <Route path="/Admingifts"> <Admingifts/> </Route>
+         <Route path="/Editgifts"><Editgifts/></Route>
+         <Route path="/Adminthemes"><Adminthemes/></Route>
+         <Route path="/Editthemes"><Editthemes/></Route>
          </Switch>
        </div>
     </Router>
