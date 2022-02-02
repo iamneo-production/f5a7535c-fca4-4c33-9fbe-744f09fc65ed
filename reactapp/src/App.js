@@ -10,6 +10,7 @@ import Admingifts from './components/Admingifts/Admingifts';
 import Editgifts from './components/Admingifts/Editgifts';
 import Adminthemes from './components/Adminthemes/Adminthemes';
 import Editthemes from './components/Adminthemes/Editthemes';
+import Adminvieworders from './components/Adminvieworders/Adminvieworders';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
          <Route path="/Editgifts"><Editgifts/></Route>
          <Route path="/Adminthemes"><Adminthemes/></Route>
          <Route path="/Editthemes"><Editthemes/></Route>
+         <Route path="/Adminvieworders"><Adminvieworders/></Route>
          </Switch>
        </div>
     </Router>
